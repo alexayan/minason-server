@@ -10,7 +10,7 @@ Minason 基于微信小程序微信小程序提供的 [局域网通信](https://
 
 Minason server 当前是一个快速开发完成的玩具项目，只是验证了可行性，不能用于生产环境。
 
-项目中的 [example](https://github.com/alexayan/minason-server/example) 目录中有一个简单的匿名聊天小程序微服务实现
+项目中的 [example](https://github.com/alexayan/minason-server/tree/master/example) 目录中有一个简单的匿名聊天小程序微服务实现
 
 Have Fun :)
 
