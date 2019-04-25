@@ -1,0 +1,82 @@
+{
+  "name": "minasan",
+  "version": "0.0.0",
+  "description": "mina bridge",
+  "homepage": "todo",
+  "author": {
+    "name": "alexayan",
+    "email": "yanhaibiao1991@gmail.com",
+    "url": "https://github.com/alexayan"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "mina"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-xo": "^0.25.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^23.5.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2",
+    "radium": "^0.25.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": "alexayan/minasan",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "lodash": "^4.17.11",
+    "mdns": "^2.4.0",
+    "superstruct": "^0.6.1",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1",
+    "ws": "^6.2.1"
+  }
+}
