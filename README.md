@@ -18,6 +18,8 @@ Have Fun :)
 
 [匿名聊天](https://github.com/alexayan/minason-server/tree/master/example)
 
+运行 Demo： `node example/index.js`
+
 ![demo](demo.gif)
 
 ## Reference
