@@ -14,10 +14,15 @@ Minason server 当前是一个快速开发完成的玩具项目，只是验证�
 
 Have Fun :)
 
+## Demo
+
+[匿名聊天](https://github.com/alexayan/minason-server/tree/master/example)
+
+![demo](demo.gif)
+
 ## Reference
 
 [Minason client](https://github.com/alexayan/minason-client)<br/>
-[微信小程序 rich-text 组件节点事件](https://github.com/alexayan/alexayan.github.io/blob/master/201903/01.md)
 
 ## License
 
