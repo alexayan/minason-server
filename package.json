@@ -1,8 +1,8 @@
 {
   "name": "minasan",
-  "version": "0.0.0",
-  "description": "mina bridge",
-  "homepage": "todo",
+  "version": "0.0.1",
+  "description": "minasan",
+  "homepage": "https://github.com/alexayan/minason-server",
   "author": {
     "name": "alexayan",
     "email": "yanhaibiao1991@gmail.com",
